@@ -2,7 +2,7 @@
 
 namespace AddUnlimitedNumbers.Class
 {
-	internal class NodeList
+	public class NodeList
 	{
 		public int Value { get; set; }
 		public NodeList Next { get; set; }
@@ -37,8 +37,8 @@ namespace AddUnlimitedNumbers.Class
 
 			return first;
 		}
-		 
-		internal NodeList Add(NodeList firstList, NodeList secondList)
+
+		public NodeList Add(NodeList firstList, NodeList secondList)
 		{
 			int sum = 0;
 			int extra = 0;
